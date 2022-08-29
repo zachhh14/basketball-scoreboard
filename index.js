@@ -11,14 +11,25 @@ function homePlusone(){
 }
 
 function homePlustwo(){
-
     starthScore+=2
     homeScore.textContent = starthScore
 }
 
 function homePlusthree(){
-   
     starthScore+=3
+    homeScore.textContent = starthScore
+}
+
+//minus or reset
+function  homeMinus(){
+    starthScore -=1
+    console.log("button clicked")
+    homeScore.textContent = starthScore
+}
+
+function homeReset(){
+    starthScore = 0
+    console.log("button clicked")
     homeScore.textContent = starthScore
 }
 
