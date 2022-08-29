@@ -7,25 +7,34 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <br>
+                
                 <h3 id="num1">0</h3>
-                <button class="btnScore" onclick="homePlusone()">+1</button>
-                <button class="btnScore" onclick="homePlustwo()">+2</button>
-                <button class="btnScore" onclick="homePlusthree()">+3</button>
+                <div class="centerButton">
+                    <button class="btnScore" onclick="homePlusone()">+1</button>
+                    <button class="btnScore" onclick="homePlustwo()">+2</button>
+                    <button class="btnScore" onclick="homePlusthree()">+3</button>
+                </div>
+                <div class="reset">
+                    <button class="btnMinus">-1</button>
+                    <button class="btnMinus">RESET</button>
+                </div>
             </div>
             <div>
                 <h3>GUEST</h3>
-                <br>
+        
                 <h3 id="num2">0</h3>
-                <button class="btnScore" onclick="guestPlusone()">+1</button>
-                <button class="btnScore" onclick="guestPlustwo()">+2</button>
-                <button class="btnScore" onclick="guestPlusthree()">+3</button>
+                <div class="centerButton">
+                    <button class="btnScore" onclick="guestPlusone()">+1</button>
+                    <button class="btnScore" onclick="guestPlustwo()">+2</button>
+                    <button class="btnScore" onclick="guestPlusthree()">+3</button>
+                </div>
+                <div class="reset">
+                    <button class="btnMinus">-1</button>
+                    <button class="btnMinus">RESET</button>
+                </div>
             </div>
         </div>
-        <div class="reset">
-            <button class="btnMinus">minus one</button>
-            <button class="btnMinus">reset</button>
-        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>

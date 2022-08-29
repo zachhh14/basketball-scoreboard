@@ -20,12 +20,13 @@ h3{
     /* font-size: 40; */
     color: white;
     margin: auto;
+    text-align: center;
 }
 
 #num1{
     padding-top:25;
     padding-bottom:20;
-    color: F94F6D;
+    color: #F94F6D;
     background-color: black;
     text-align: center;
     font-size: 300px;
@@ -35,7 +36,7 @@ h3{
 #num2{
     padding-top:25;
     padding-bottom:20;
-    color: F94F6D;
+    color: #F94F6D;
     background-color: black;
     text-align: center;
     font-size: 300px;
@@ -52,4 +53,21 @@ h3{
     font-family: cursed-timer;
     font-size:50px;
     border-radius: 10px;
+}
+
+.btnMinus{
+    color: white;
+    background-color: #F94F6D;
+    border: 2px solid #9AABD8; 
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    border-radius: 10px;
+}
+
+.centerButton{
+    justify-content: space-around;
 }

@@ -36,7 +36,6 @@ function guestPlustwo(){
 }
 
 function guestPlusthree(){
-   
     startgScore+=3
     guestScore.textContent = startgScore
 }
